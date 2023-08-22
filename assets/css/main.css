@@ -48,6 +48,10 @@ label, #toggle {
     width: 90px;
     border-radius: 50%;
 }
+.imgCarousel
+{
+    height: 600px ;
+}
 
 @media all and (max-width: 990px) {
     nav {

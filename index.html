@@ -13,12 +13,49 @@
     <input type="checkbox" id="toggle">
     <div class="mainMenu">
         <img src="./assets/images/logo.jpeg" alt="logo" id="logoNav">
-        <a href="#">Acceuil</a>
+        <a href="index.html">Acceuil</a>
         <a href="#">Evenements</a>
     </div>
 </nav>
 
-
+<div id="carousel" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./assets/images/salle.jpeg" class="d-block w-100 imgCarousel" alt="Salle">
+        </div>
+        <div class="carousel-item">
+            <img src="./assets/images/salle3.jpeg" class="d-block w-100 imgCarousel" alt="Salle">
+        </div>
+        <div class="carousel-item">
+            <img src="./assets/images/salleSac.jpeg" class="d-block w-100 imgCarousel" alt="Salle">
+        </div>
+        <div class="carousel-item">
+            <img src="./assets/images/trainingBoxe2.jpeg" class="d-block w-100 imgCarousel" alt="training Boxe">
+        </div>
+        <div class="carousel-item">
+            <img src="./assets/images/salle2.jpeg" class="d-block w-100 imgCarousel" alt="training Boxe">
+        </div>
+        <div class="carousel-item">
+            <img src="./assets/images/groupe1.jpeg" class="d-block w-100 imgCarousel" alt="training Boxe">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
 
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/main.js"></script>
