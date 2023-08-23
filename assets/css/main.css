@@ -51,7 +51,9 @@ nav .mainMenu a {
     font-size: 10em;
     color: orangered;
     /*text-shadow: 2px 15px 18px #CE0D0D*/
-    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 2px 15px 18px rgba(206,13,13,0);
+    /*text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 2px 15px 18px rgba(206,13,13,0);*/
+    /*text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, 2px 15px 18px rgba(206,13,13,0);*/
+    text-shadow: #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, 2px 15px 18px rgba(206,13,13,0);
 
 }
 
@@ -81,6 +83,16 @@ label, #toggle {
 
 .footer {
     background: linear-gradient(90deg, rgba(191, 190, 200, 1) 0%, rgba(76, 76, 79, 1) 100%);
+    display: flex;
+    color:white;
+}
+.footer p{
+    margin: auto;
+    text-align: center;
+}
+.footer a {
+    text-decoration: none;
+    color:skyblue;
 }
 
 
