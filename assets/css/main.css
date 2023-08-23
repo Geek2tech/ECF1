@@ -3,7 +3,7 @@
     src: url("../../assets/fonts/TulpenOne-Regular.ttf");
 }
 
-nav {
+nav , .footer{
     margin: 10px auto;
     width: 100%;
     height: 100px;
@@ -64,6 +64,9 @@ label, #toggle {
     width: auto;
 
 }
+.footer{
+    background: linear-gradient(90deg, rgba(191, 190, 200, 1) 0%, rgba(76, 76, 79, 1) 100%);
+}
 
 
 @media all and (max-width: 990px) {
@@ -79,7 +82,6 @@ label, #toggle {
         flex-direction: column;
         align-items: center;
         height: 220px;
-        background: rgb(192, 190, 200);
         background: linear-gradient(90deg, rgba(191, 190, 200, 1) 0%, rgba(76, 76, 79, 1) 100%);
 
 
@@ -91,7 +93,7 @@ label, #toggle {
 
     nav .mainMenu a {
         width: 50%;
-        z-index: 5;
+        z-index: 3;
         background: linear-gradient(90deg, rgba(191, 190, 200, 1) 0%, rgba(76, 76, 79, 1) 100%);
         border-radius: 30px;
         margin-top: 25px;
