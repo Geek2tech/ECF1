@@ -2,9 +2,7 @@
     font-family: TulpenOne-Regular ;
     src: url("../../assets/fonts/TulpenOne-Regular.ttf");
 }
-.affiche2{
-    display: none;
-}
+
 .rounded-picture{
     border-radius: 20px;
 }
@@ -98,14 +96,7 @@ label, #toggle {
 
 
 @media all and (max-width: 990px) {
-    .affiche{
-        display: none;
-    }
-    .affiche2{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
+
     nav {
         height: 60px;
         border-radius: unset;
