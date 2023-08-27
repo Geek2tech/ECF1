@@ -2,14 +2,121 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Site association</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Apprenez les techniques du MMA , du Grappling et de la Boxe Thaïlandaise avec la Wolfstar"/>
+    <title>WolfStar MMA</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/main.css"
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
-<body>
+<body class="container">
+<!--- Barre de Navigation -->
+<nav>
+    <label for="toggle">☰</label>
+    <input type="checkbox" id="toggle">
+    <div class="mainMenu">
+        <img src="./assets/images/logo.jpeg" alt="logo" id="logoNav">
+        <a href="index.html">Acceuil</a>
+        <a href="evenement.html">Evenements</a>
+    </div>
+</nav>
+<!-- Texte dans le carousel -->
+<div class="carouselText">
+    <h1>WolfStar MMA</h1>
+</div>
+<!-- Carousel -->
+<div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./assets/images/salle.jpeg" class="d-block w-100 imgCarousel" alt="Salle">
+        </div>
+        <div class="carousel-item">
+            <img src="./assets/images/salle3.jpeg" class="d-block w-100 imgCarousel" alt="Salle">
+        </div>
+        <div class="carousel-item">
+            <img src="./assets/images/salleSac.jpeg" class="d-block w-100 imgCarousel" alt="Salle">
+        </div>
+        <div class="carousel-item">
+            <img src="./assets/images/trainingBoxe2.jpeg" class="d-block w-100 imgCarousel" alt="training Boxe">
+        </div>
+        <div class="carousel-item">
+            <img src="./assets/images/salle2.jpeg" class="d-block w-100 imgCarousel" alt="training Boxe">
+        </div>
+        <div class="carousel-item">
+            <img src="./assets/images/groupe1.jpeg" class="d-block w-100 imgCarousel" alt="training Boxe">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<div class="main d-lg-flex justify-content-between">
+    <!-- description de l'asso -->
+    <div class="presAsso text-center col-lg-6 p-3">
+        <p>L'association <strong>WolfStar</strong>, promeut depuis 2012 la pratique du <strong> pancrace </strong>et du
+            <strong> Mixed
+                Martial Art</strong> auprès d'un large public</p>
+        <br>
+        <p>Le pancrace ou le MMA est un sport de combat <strong>riche</strong> et <strong>complet</strong> via les
+            valeurs martiales qu'il véhicule </p>
+        <p>Son impressionnant panel technique réunit les sports de percussion, de lutte et de préhension en une seule
+            discipline</p>
 
+        <p>Encadré par Julien , <strong>entraineur diplômé </strong>, dans une ambiance agréable basé sur la
+            <strong>camaraderie</strong> et le <strong>respect</strong></p>
+        <div class="sports d-sm-flex">
+            <div class="col-sm-4">
+                <p><strong>Boxe</strong></p>
+                <img src="./assets/images/juSaut.jpeg" alt="Boxe" class="img-fluid p-1 rounded-picture">
+            </div>
+            <div class="col-sm-4">
+                <p><strong>Grappling</strong></p>
+                <img src="./assets/images/grappling.jpeg" alt="grappling" class="img-fluid p-1 rounded-picture">
+            </div>
+            <div class="col-sm-4">
+                <p><strong>Musculation</strong></p>
+                <img src="./assets/images/salleMusculation.png" alt="MMA" class="img-fluid p-1  w-80 rounded-picture">
+            </div>
+        </div>
+        <br>
+        <div>
+            <p><strong>MMA</strong></p>
+            <img src="./assets/images/Boxe1.jpeg" alt="musculation" class="img-fluid p-1 rounded-picture">
+        </div>
+        <!-- affiche officielle ne s'affiche que sur des petits écrans -->
+        <div class="affiche2 ">
+            <p><strong>Les entrainements</strong></p>
+            <img src="./assets/images/affiche.jpeg" alt="affiche" class="img-fluid rounded-picture">
+        </div>
+    </div>
+    <!-- Affiche officielle ne s'affiche pas sur les écrans md et inférieur-->
+    <div class="affiche  align-items-center">
+        <img src="./assets/images/affiche.jpeg" alt="Affiche" class="img-fluid rounded-picture">
+    </div>
+
+</div>
+<!-- Footer -->
+<div class="footer">
+    <p>N'hésitez pas à nous appeler ou nous rejoindre sur <a href="https://www.facebook.com/wolfstarmma"
+                                                             target="_blank">Facebook</a> pour toutes questions</p>
+
+</div>
 
 <script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/main.js"></script>
 </body>
 </html>
+
